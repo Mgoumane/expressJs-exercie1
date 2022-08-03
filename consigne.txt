@@ -1,0 +1,13 @@
+0 -  Créer un serveur qui, à la page d’accueil (la route `/`), renverra le message suivant :
+"Authors API"
+
+1 - Créer les routes qui affichent les auteurs et leurs nationalités par leur ID : 
+
+2 - Créer les routes qui affiche les livres de chaque auteurs.
+
+## Exercice 3
+
+Créer un message d’erreur pour les routes qui n’existent pas.
+La route `/cars/` affichera le mot **error**.
+Ensuite, créer un message d’erreur quand l’ID de l’auteur n’est pas définie. La route `/authors/12133` retournera **The author with the ID 12133 does not exist**
+
